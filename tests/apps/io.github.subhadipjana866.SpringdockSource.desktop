@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Springdock Test Source
+Exec=gjs -m @APPS@/source.js @FILE@
+Icon=folder
+DBusActivatable=false

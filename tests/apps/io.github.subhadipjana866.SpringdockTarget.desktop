@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Springdock Test Target
+Exec=gjs -m @APPS@/target.js
+Icon=text-editor
+DBusActivatable=false

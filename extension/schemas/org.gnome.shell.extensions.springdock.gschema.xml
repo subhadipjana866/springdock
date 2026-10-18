@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.springdock"
+          path="/org/gnome/shell/extensions/springdock/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Raise windows when a file is dragged over a dock icon</summary>
+    </key>
+    <key name="hover-delay" type="i">
+      <range min="200" max="2000"/>
+      <default>600</default>
+      <summary>How long (ms) to hold a dragged file over a dock icon before its window comes to the front</summary>
+    </key>
+    <key name="show-quick-toggle" type="b">
+      <default>true</default>
+      <summary>Show an on/off toggle in Quick Settings</summary>
+    </key>
+  </schema>
+</schemalist>

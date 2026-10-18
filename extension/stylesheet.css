@@ -1,0 +1,36 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+.springdock-strip {
+  padding: 8px;
+  spacing: 8px;
+  border-radius: 14px;
+  background-color: rgba(36, 36, 40, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.45);
+}
+
+.springdock-item {
+  padding: 6px;
+  spacing: 6px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  max-width: 212px;
+}
+
+.springdock-item:highlighted {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(53, 132, 228, 0.9);
+}
+
+.springdock-item-header {
+  spacing: 6px;
+}
+
+.springdock-item-title {
+  font-size: 9pt;
+  color: #f2f2f2;
+}
+
+.springdock-thumbnail {
+  border-radius: 4px;
+}

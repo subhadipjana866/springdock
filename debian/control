@@ -1,0 +1,23 @@
+Source: gnome-shell-extension-springdock
+Section: gnome
+Priority: optional
+Maintainer: Subhadip Jana <subhadipjana866@gmail.com>
+Build-Depends: debhelper-compat (= 13), libglib2.0-bin
+Standards-Version: 4.7.4
+Homepage: https://github.com/subhadipjana866/springdock
+Vcs-Browser: https://github.com/subhadipjana866/springdock
+Vcs-Git: https://github.com/subhadipjana866/springdock.git
+
+Package: gnome-shell-extension-springdock
+Architecture: all
+Depends: ${misc:Depends}, gnome-shell (>= 50~), gnome-shell (<< 52~)
+Description: drag files onto dock icons to reach the app's window
+ Springdock makes the icons in the GNOME Shell dock spring-loaded: while
+ dragging a file (or other data) out of an application, holding it over
+ another application's icon brings that application's window to the
+ front, so the file can be dropped into it.
+ .
+ If the application has several windows, a row of live thumbnails
+ appears next to the icon, and holding the drag over one raises that
+ window. It is made for Ubuntu Dock and Dash to Dock, and can be
+ switched on and off from Quick Settings.

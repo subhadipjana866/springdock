@@ -1,0 +1,9 @@
+{
+  "uuid": "springdock@subhadipjana866.github.io",
+  "name": "Springdock",
+  "description": "Drag a file over an app's dock icon and that app's window comes to the front, so you can drop the file into it. If the app has several windows, hover the one you want.",
+  "shell-version": ["50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.springdock",
+  "url": "https://github.com/subhadipjana866/springdock",
+  "version": 1
+}
